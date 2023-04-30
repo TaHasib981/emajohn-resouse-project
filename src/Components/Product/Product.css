@@ -1,0 +1,29 @@
+.product-container{
+    height: 408px;
+   border: 1px solid grey;
+   border-radius: 5px;
+   position: relative;
+}
+.product-img{
+    margin: 8px;
+}
+.product-img img{
+    width:100%;
+    border-radius: 5px;
+    /* margin: 0 5px; */
+}
+.product-info{
+    margin: 0 10px 10px 10px;
+}
+.product-container button{
+    outline: none;
+    border: none;
+    background-color: #FFE0B3;
+    width: 100%;
+    padding: 10px 0 ;
+    position: absolute;
+    bottom: 0;
+}
+.product-container button:hover{
+    background-color: orange;
+}
